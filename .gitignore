@@ -1,0 +1,48 @@
+# Arquivos e pastas do sistema macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icones de lixeira no macOS
+Icon
+._*
+
+# Arquivos de logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Ambiente Virtual
+venv/
+env/
+.env
+stellar_env/
+
+# Configurações de IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de Backup do Editor
+*~
+*.swp
+*.bak
+*.tmp
+
+# Arquivos de configuração de Python
+.pytest_cache/
+coverage.xml
+.tox/
+
+# Pastas excluídas
+Tokenizacao/
+Obsoletos/
