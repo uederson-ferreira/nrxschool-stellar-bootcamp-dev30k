@@ -25,6 +25,7 @@ venv/
 env/
 .env
 stellar_env/
+tx_hash.txt
 
 # Configurações de IDEs e editores
 .vscode/
