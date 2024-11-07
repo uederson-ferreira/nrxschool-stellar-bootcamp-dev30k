@@ -50,6 +50,7 @@ Obsoletos/
 
 # Ignore diretório de build do cargo
 /target/
+target/
 
 # Ignore arquivos de lock e cache gerados pelo Cargo
 **/*.rs.bk

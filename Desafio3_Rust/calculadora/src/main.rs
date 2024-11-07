@@ -46,4 +46,13 @@ fn main() {
 
         match escolha {
             1 => println!("Resultado da Soma: {}", calc.soma(x, y)),
-            2 => println!("Resultado da Subtração: {}", calc
+            2 => println!("Resultado da Subtração: {}", calc.subtracao(x, y)),
+            3 => println!("Resultado da Multiplicação: {}", calc.multiplicacao(x, y)),
+            4 => match calc.divisao(x, y) {
+                Ok(resultado) => println!("Resultado da Divisão: {}", resultado),
+                Err(erro) => println!("{}", erro),
+            },
+            _ => println!("Opção inválida, tente novamente."),
+        }
+    }
+}
