@@ -47,3 +47,25 @@ coverage.xml
 # Pastas excluídas
 Tokenizacao/
 Obsoletos/
+
+# Ignore diretório de build do cargo
+/target/
+
+# Ignore arquivos de lock e cache gerados pelo Cargo
+**/*.rs.bk
+Cargo.lock
+
+# Arquivos e diretórios de configuração do IDE
+/.idea/
+/.vscode/
+/*.rs.bk
+
+# Arquivos do editor e sistema operacional
+*.swp
+*.swo
+.DS_Store
+*.log
+
+# Arquivos de debug ou dump de crash
+*.dmp
+*.stackdump
